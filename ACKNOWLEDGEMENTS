@@ -1,0 +1,10 @@
+### Page-allocation process largely replicated from Multi-Level Translate Example on Piazza. (Index/Offset Bit Isolation and VPN Translation)
+https://piazza.com/class/lr8nyk7ebr32y5/post/180
+
+### Information regarding the implementation of Permissive Software License is predominantly taken from details on its Wikipage, and the physical license is reused from a 2-clause license officially released under the Free Software Foundation in 1999. It features compatability with the GNU GPL.
+https://en.wikipedia.org/wiki/Permissive_software_license
+https://en.wikipedia.org/wiki/BSD_licenses
+
+### Usage API on 'memset' for memory allocation repurposing
+https://man7.org/linux/man-pages/man3/memset.3.html
+https://www.geeksforgeeks.org/memset-c-example/

@@ -1,0 +1,26 @@
+The OG: 31778220 ns to process 6306696 characters: 4.75838
+
+3.1.1 Even Split (w/ Atomic Reduction)
+	243092517 ns to process 6306696 characters: 4.75838
+	232733776 ns to process 6306696 characters: 4.75838	
+	241914785 ns to process 6306696 characters: 4.75838
+	214232069 ns to process 6306696 characters: 4.75838
+	221524592 ns to process 6306696 characters: 4.75838
+3.1.2 Task Queue (w/ Atomic Reduction)
+	483699742 ns to process 6306696 characters: 4.75838
+	527540405 ns to process 6306696 characters: 4.75838
+	552237498 ns to process 6306696 characters: 4.75838
+	524981186 ns to process 6306696 characters: 4.75838
+	554819927 ns to process 6306696 characters: 4.75838
+3.1.4 Parallel for Schedules (w/ Dynamic Scheduling)
+	468135752 ns to process 6306696 characters: 4.75838
+	459370426 ns to process 6306696 characters: 4.75838
+	451702547 ns to process 6306696 characters: 4.75838
+	467979301 ns to process 6306696 characters: 4.75838
+	446519941 ns to process 6306696 characters: 4.75838
+3.2.2 Many to Few Reduction
+	14863851 ns to process 6306696 characters: 4.75838
+	14424478 ns to process 6306696 characters: 4.75838
+	15473053 ns to process 6306696 characters: 4.75838
+	16735344 ns to process 6306696 characters: 4.75838
+	15027693 ns to process 6306696 characters: 4.75838

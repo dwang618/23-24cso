@@ -1,0 +1,14 @@
+GPL (GNU General Public License):
+
+Summary: GPL is a copyleft license that requires derivative works to be distributed under the same license following repeated releaeses. It grants users the freedom to use, modify, and distribute the software freely, but requires that any modifications made to the software or any derivative works must also be open-source and distributed under the GPL as well. This ensures that modifications and improvements to the software remain accessible to the community, while also preventing the software from being turned into a proprietary product.
+Decision: We chose not to use GPL for this project because it imposes strict requirements on derivative works, which does not align with our project's goals in the context of wanting to allow more flexibility in external use by those who may want to distribute the code.
+
+BSD (Berkeley Software Distribution) License:
+
+Summary: BSD is a permissive license that allows users to use, modify, and distribute the software freely, with minimal restrictions. It permits both open-source and proprietary distribution of derivative works, making it more flexible than GPL. Unlike the GPL, the BSD license also allows for the integration of the software into proprietary projects, making it a popular choice for both open-source and commercial software development.
+Decision: We chose BSD because of its permissive nature, which allows for increased flexibility in how the code is used and integrated into both open-source and proprietary projects. This license aligns well with distributing software that is used for widespread adoption and implementation.
+
+SQLite License:
+
+Summary: The SQLite license is a permissive, open-source license specifically designed for the SQLite database engine. It allows users to freely use, modify, and distribute SQLite without imposing many restrictions. Similar to the BSD license, the SQLite license permits both open-source and proprietary distribution of derivative works and also includes a disclaimer of warranty. However, the SQLite License may include specific provisions unique to the SQLite project, but still serves the same general purpose as the BSD License.
+Decision: Similar to BSD, the SQLite License offers a permissive approach that allows for maximum flexibility in how the code can be used and distributed. We chose not to use it solely because the BSD license is more widely recognized and understood in the open-source community.

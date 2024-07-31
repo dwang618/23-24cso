@@ -1,0 +1,21 @@
+### README 
+
+In this implementation of a multi-level page table lookup and allocation system, we develop a program that manages individual page tables and perform translations of virtual addresses to physical addresses. The features included within this simulation include a configurable number of levels in the page table, a configurable size of page offsets, an implementation of apage table base register (ptbr), and a structure for reusing existing page tables and pages if mappings are already setup.
+
+### Customizing config.h and picking values for the file
+
+The header file 'config.h' can be customized for two different variable definitions, LEVELS and POBITS. By default these values are set to 1 and 12 respectively, but by changing these values you can manipulate the intended behavior of the page table lookup and allocation functions. Changing the LEVELS paramater specifically will alter the number of Page Table Entries (PTEs) necessary for translating a given address. By increasing this LEVELS value, the hierarchy of the page table structure is increased along with its complexity. Changing the POBITS parameter specifically will alter the number of bits used for a given page's offset, and therefore its size and address within memory as well. Increasing POBITS may remove additional steps needed for managing the page tables, but will utilize more resources to store information. Decreasing the POBITS parameter will conversely provide a more accurate utilization of memory, but will need to be closely managed to avoid any allocation errors.
+
+Keep in mind that changing either LEVELS or POBITS will result in variations of address space size and memory access patterns. Aligning both parameters with the limitations of your system will help balance between performance requirements and memory management efficiency. Having particularly large or small respective values will have their own upsides and downsides. 
+
+### Known bugs and limitations
+
+System Inconsistencies: The memory allocation mechanisms used in this implementation are limited, in that it heavily relies on 'posix_memalign'. This standard library function is not available for all available systems, and is likely not the most efficient approach for allocating memory for the specific needs of the page table simulation. 
+
+Error Handling: There is only a minimal setup for error handling within the code. The functionality of the simulation assumes that no irregular behavior occurs with physical memory allocation during both the translation phase and the page allocation phases. When using 'posix_memalign' and 'memset', the return value of the respective functions is used to determine whether or not a significant error that would affect the output behavior of the simulation has occured. 
+
+Performance Consideration: The code does not address performance considerations such as page table traversal overhead and cache optimizations which can also significantly impact the performance of the page table simulation in a real-world context.
+
+### Code Sampling
+
+An example of code has been provided in the main method of the 'mlpt.c' file below the completed translation and page-allocation functions. These function calls are accommodated with comments detailing the intended behavior of each assertion. These tests will take place in a chronological order, where the page table base register will initially be empty prior to any allocation of virtual and/or physical addresses. 

@@ -1,0 +1,60 @@
+Scenario 1 @ Loop Iteration 35000: Runtime = 2491264 ns 
+Scenario 1 @ Loop Iteration 70000: Runtime = 3990460 ns 
+Scenario 1 @ Loop Iteration 105000: Runtime = 5485817 ns 
+Scenario 1 @ Loop Iteration 140000: Runtime = 6543114 ns 
+Scenario 1 @ Loop Iteration 175000: Runtime = 7441479 ns 
+Scenario 1 @ Loop Iteration 210000: Runtime = 8339596 ns 
+Scenario 1 @ Loop Iteration 245000: Runtime = 9237748 ns 
+Scenario 1 @ Loop Iteration 280000: Runtime = 10135869 ns 
+Scenario 1 @ Loop Iteration 315000: Runtime = 11033988 ns 
+Scenario 1 @ Loop Iteration 350000: Runtime = 11932125 ns 
+Scenario 1 Average Time: 34 nanoseconds
+
+Scenario 2 @ Loop Iteration 7000: Runtime = 2895918 ns 
+Scenario 2 @ Loop Iteration 14000: Runtime = 5018772 ns 
+Scenario 2 @ Loop Iteration 21000: Runtime = 7160996 ns 
+Scenario 2 @ Loop Iteration 28000: Runtime = 9283459 ns 
+Scenario 2 @ Loop Iteration 35000: Runtime = 10729327 ns 
+Scenario 2 @ Loop Iteration 42000: Runtime = 11467815 ns 
+Scenario 2 @ Loop Iteration 49000: Runtime = 12199799 ns 
+Scenario 2 @ Loop Iteration 56000: Runtime = 12985242 ns 
+Scenario 2 @ Loop Iteration 63000: Runtime = 13942379 ns 
+Scenario 2 @ Loop Iteration 70000: Runtime = 14669637 ns 
+Scenario 2 Average Time: 209 nanoseconds
+
+Scenario 3 @ Loop Iteration 10: Runtime = 25929709 ns 
+Scenario 3 @ Loop Iteration 20: Runtime = 56760443 ns 
+Scenario 3 @ Loop Iteration 30: Runtime = 87890682 ns 
+Scenario 3 @ Loop Iteration 40: Runtime = 118226234 ns 
+Scenario 3 @ Loop Iteration 50: Runtime = 147719704 ns 
+Scenario 3 @ Loop Iteration 60: Runtime = 177391914 ns 
+Scenario 3 @ Loop Iteration 70: Runtime = 207937275 ns 
+Scenario 3 @ Loop Iteration 80: Runtime = 236778248 ns 
+Scenario 3 @ Loop Iteration 90: Runtime = 267111192 ns 
+Scenario 3 @ Loop Iteration 100: Runtime = 297221450 ns 
+Scenario 3 Average Time: 2972214 nanoseconds
+
+Scenario 4 @ Loop Iteration 500: Runtime = 3021352 ns 
+Scenario 4 @ Loop Iteration 1000: Runtime = 5932648 ns 
+Scenario 4 @ Loop Iteration 1500: Runtime = 8837602 ns 
+Scenario 4 @ Loop Iteration 2000: Runtime = 10093642 ns 
+Scenario 4 @ Loop Iteration 2500: Runtime = 11054916 ns 
+Scenario 4 @ Loop Iteration 3000: Runtime = 12017680 ns 
+Scenario 4 @ Loop Iteration 3500: Runtime = 12984965 ns 
+Scenario 4 @ Loop Iteration 4000: Runtime = 13948112 ns 
+Scenario 4 @ Loop Iteration 4500: Runtime = 15035989 ns 
+Scenario 4 @ Loop Iteration 5000: Runtime = 16031518 ns 
+Scenario 4 Average Time: 3206 nanoseconds
+
+Scenario 5 @ Loop Iteration 1000: Runtime = 18265674 ns
+Scenario 5 @ Loop Iteration 2000: Runtime = 27549270 ns
+Scenario 5 @ Loop Iteration 3000: Runtime = 34898044 ns
+Scenario 5 @ Loop Iteration 4000: Runtime = 42511549 ns
+Scenario 5 @ Loop Iteration 5000: Runtime = 49661400 ns
+Scenario 5 @ Loop Iteration 6000: Runtime = 56640102 ns
+Scenario 5 @ Loop Iteration 7000: Runtime = 63825871 ns
+Scenario 5 @ Loop Iteration 8000: Runtime = 70898473 ns
+Scenario 5 @ Loop Iteration 9000: Runtime = 78086934 ns
+Scenario 5 @ Loop Iteration 10000: Runtime = 85273621 ns
+Scenario 5 Average Time: 8527 nanoseconds
+
